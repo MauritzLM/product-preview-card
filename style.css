@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    padding: 10px;
+    background-color: hsl(30, 38%, 92%);
+}
+
+/*  Typography  */
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    color: hsl(228, 12%, 48%);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 1.4rem;
+    color: hsl(228, 12%, 48%);
+}
+
+.product-info>p {
+    line-height: 1.6;
+    letter-spacing: .1px;
+}
+
+.discounted-price {
+    font-size: 3rem;
+    font-family: 'Fraunces';
+    margin: 0;
+    color: hsl(158, 36%, 37%);
+}
+
+.normal-price {
+    text-decoration: line-through;
+    line-height: .7;
+}
+
+/*  Layout  */
+.card-container {
+    border-radius: 10px;
+    background-color: white;
+}
+
+picture img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.product-info {
+    padding: 2.5em;
+}
+
+.price-container {
+    display: flex;
+    gap: 15px;
+}
+
+/*  button  */
+.add-button {
+    width: 100%;
+    padding: 15px 25px 15px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    font-family: inherit;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    margin-top: 1em;
+}
+
+.add-button img {
+    position: relative;
+    right: 10px;
+    top: 4px;
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/*  Media Qeueries  */
+@media screen and (min-width: 600px) {
+    .card-container {
+        display: flex;
+        width: 600px;
+        height: 450px;
+    }
+
+    .product-info {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    picture img {
+        border-top-right-radius: 0px;
+    }
+
+}
