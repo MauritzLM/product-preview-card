@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://mauritzlm.github.io/product-preview-card/)
 
 ## My process
 
@@ -69,7 +69,7 @@ Working on challenges that has to be responsive makes me think more carefully ab
 ### Useful resources
 
 - [css tricks flexbox article](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - I like to use this article as a guide when I'm using flexbox.
-- [mdn responsive images guide](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) - This guide describes the art direction problem (displaying a different image depending on the screen size) and how to use the picture element to solve it.
+- [mdn responsive images guide](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) - This guide describes the art direction problem (displaying a different image depending on the screen size) and how to use the picture element to resolve it.
 
 ## Author
 
