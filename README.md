@@ -61,6 +61,8 @@ This code moved the cart icon a little down and to the left.
 ```
 Working on challenges that has to be responsive makes me think more carefully about how I need to structure my html markup and my style sheet.
 
+I learned about using the delete element and hiding content visually but not for screen readers, after feedback from @MelvinAguilar.
+
 ### Continued development
 
 1. I want to continue learning about the best practices of which units to use. For example with padding: px or em.
@@ -70,8 +72,14 @@ Working on challenges that has to be responsive makes me think more carefully ab
 
 - [css tricks flexbox article](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - I like to use this article as a guide when I'm using flexbox.
 - [mdn responsive images guide](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) - This guide describes the art direction problem (displaying a different image depending on the screen size) and how to use the picture element to resolve it.
+- [css tricks inclusively hidden article](https://css-tricks.com/inclusively-hidden/) - The article provides a ruleset to hide an element visually but not from screen readers.
 
 ## Author
 
 - Frontend Mentor - [@MauritzLM](https://www.frontendmentor.io/profile/MauritzLM)
+
+## Acknowledgments
+
+@MelvinAguilar gave feedback to my submitted solution. It helped me to make accessibility improvements and improve the desktop layout.  
+
 
